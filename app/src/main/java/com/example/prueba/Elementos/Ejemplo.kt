@@ -68,10 +68,10 @@ fun ejemploTexto() {
             )
         }
         item { botones() }
+        item{}
         }
         LazyRow {
         item { Text(text = "Amigdalisitis" , modifier = Modifier.padding(2.dp)) }
-        item { Text(text = "Amigdalisitis") }
         }
     }
 

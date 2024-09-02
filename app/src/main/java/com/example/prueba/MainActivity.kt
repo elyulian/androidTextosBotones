@@ -12,6 +12,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.example.prueba.Ejercicio.calculadora
 import com.example.prueba.Elementos.botones
 import com.example.prueba.Elementos.ejemploTexto
 import com.example.prueba.ui.theme.PruebaTheme
@@ -24,7 +25,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             PruebaTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) {
-                    ejemploTexto()
+                    calculadora()
                 }
             }
         }
